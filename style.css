@@ -5,15 +5,18 @@
     font-family: 'Roboto Slab', serif; /*verificar*/
  }
 
- body{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("/img/marek-piwnicki-JurNMrW1T-c-unsplash.jpg"); /*verificar*/
-    background-size: 100%;
- }
+ body {
+   height: 100vh;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url("/img/marek-piwnicki-JurNMrW1T-c-unsplash.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
  .caixa-maior {
     background: #000;
     opacity: 0.9;
